@@ -65,10 +65,10 @@ select {
 
 :root {
   /* farver*/
-  --color-primary: rgba(59, 130, 246, 1); /* En blålig primærfarve */
-  --color-primary-light: rgba(99, 156, 255, 1);
-  --color-primary-dark: rgba(37, 99, 235, 1);
-  --color-secondary: rgba(249, 115, 22, 1); /* En orange sekundærfarve */
+  --color-primary: rgb(143, 15, 17); /* En rød primærfarve */
+  --color-primary-light: rgb(202, 88, 90);
+  --color-primary-dark: rgb(90, 14, 15);
+  --color-secondary: #f97316; /* En orange sekundærfarve */
   --color-secondary-light: rgba(251, 146, 60, 1);
   --color-secondary-dark: rgba(234, 88, 12, 1);
   --color-dark: rgb(11, 10, 10);
@@ -1074,6 +1074,7 @@ button,
   cursor: pointer;
   transition: background-color 0.2s ease;
   text-decoration: none;
+  border: none;
 }
 input[type="submit"]:hover,
 button:hover,
@@ -1137,13 +1138,14 @@ button:hover,
 /* links / a hrefs*/
 a {
   color: var(--color-primary);
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
   color: var(--color-primary-dark);
   text-decoration: none;
+  text-decoration: underline;
 }
 
 /* ========== 8: Medier ========== */
@@ -1464,7 +1466,7 @@ img {
   z-index: 1000;
 }
 .mobile-menu a {
-  padding: var(--space-sm) 0;
+  padding: var(--space-md);
 }
 .logo,
 .navicon {
