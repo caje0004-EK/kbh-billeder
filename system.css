@@ -98,6 +98,7 @@ select {
   --font-family-sans: sans-serif;
   --font-family-serif: serif;
   --font-family-mono: monospace;
+  --font-style-italic: italic;
 
   /* Containers */
   --container-full: 100%;
@@ -912,6 +913,9 @@ h3,
 .text-bold {
   font-weight: var(--font-weight-bold);
 }
+.text-italic {
+  font-style: var(--font-style-italic);
+}
 
 /* Tekstjustering */
 /* Standard tekstjustering (mobil-first) */
@@ -1475,7 +1479,7 @@ img {
 
 /* Cards */
 .card {
-  background-color: white;
+  background-color: var(--color-primary-dark);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
   padding: var(--space-md);
@@ -1502,7 +1506,7 @@ img {
 }
 
 .card-text {
-  color: var(--color-secondary-dark);
+  color: var(--color-bright);
 }
 
 /* ========== 11: Animationer ========== */
