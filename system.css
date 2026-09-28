@@ -1513,3 +1513,9 @@ html {
 
 /* ========== 12: Custom CSS ========== */
 /* Tilføj dine egne brugerdefinerede stilarter her - eller tilføj dem i en separat fil */
+.gallery img {
+  aspect-ratio: 2 / 3;
+  object-fit: cover;
+  display: block;
+  object-position: center 30%;
+}
