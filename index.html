@@ -40,7 +40,23 @@
           <div class="col-12 col-md-6">
             <h1>Københavnerbilleder - En guide til hipster foto</h1>
             <h2>af Sten Simons</h2>
-            <button>Hent prøvekapitel</button>
+            <button popovertarget="popover">Hent prøvekapitel</button>
+            <div id="popover" popover>
+              <form>
+                <div>
+                  <label for="email">E-mail</label>
+                  <input type="email" name="email" id="email" />
+                </div>
+                <div class="m-t-md">
+                  <label for="checkbox">Vilkår og betingelser</label>
+                  <div class="flex m-t-sm">
+                    <input class="self-baseline" type="checkbox" name="chechbox" id="checkbox" />
+                    <p class="text-sm">*Jeg accepterer at modtage prøvekapitlet og modtage markedsføring om bogen ved at downloade prøvekapitlet.</p>
+                  </div>
+                </div>
+                <button type="submit" class="m-t-md">Hent prøvekapitel</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
