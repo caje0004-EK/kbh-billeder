@@ -1523,3 +1523,16 @@ html {
   display: block;
   object-position: center 30%;
 }
+
+[popover] {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  justify-self: center;
+  align-self: center;
+}
+
+[popover]::backdrop {
+  background: rgba(0, 0, 0, 0.3);
+}
