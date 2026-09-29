@@ -1515,6 +1515,10 @@ html {
   scroll-behavior: smooth;
 }
 
+[id] {
+  scroll-margin-top: 100px;
+}
+
 /* ========== 12: Custom CSS ========== */
 /* Tilføj dine egne brugerdefinerede stilarter her - eller tilføj dem i en separat fil */
 .gallery img {
